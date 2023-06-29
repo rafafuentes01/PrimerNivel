@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
         int vidaActual;    
     public TMP_Text textoVidaPlayer;
     public AudioSource audioSource;
+   
 
 
     public LayerMask piso;
@@ -73,4 +74,5 @@ public class PlayerController : MonoBehaviour
         audioSource.Play();
 
     }
+  
 }
